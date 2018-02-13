@@ -1,4 +1,7 @@
+char nom,age;
+
 printf('Hello world\n');
 printf('Quel est votre nom ?');
 scanf('%c',&nom);
-
+printf('\nQuel est votre âge ?\n');
+scanf('%c',&age);
