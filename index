@@ -1,7 +1,13 @@
-char nom,age;
+char nom;
+int age,year;
 
 printf('Hello world\n');
 printf('Quel est votre nom ?');
 scanf('%c',&nom);
 printf('\nQuel est votre âge ?\n');
 scanf('%c',&age);
+
+year = 2018 - age;
+printf ('Vous êtes nés en'%d',year);
+
+TEST
